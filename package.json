@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/heapwasm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Heap identifiers and wasm tokens for idempotent workflows.",
+  "bin": {
+    "heapwasm": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/heapwasm.git"
+  },
+  "homepage": "https://theworker02.github.io/heapwasm/",
+  "keywords": [
+    "heap",
+    "wasm",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
